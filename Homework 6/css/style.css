@@ -1,0 +1,164 @@
+*{
+	transition: all .1s ease-in;
+	margin: auto;
+	padding: 0;
+}
+
+header{
+	text-align: center;
+	background-color: rgb(57	62	68);
+	font-family: sans-serif;
+	height: 100px;
+	padding-bottom: 10px;
+	padding-top: 15px;
+	color:rgb(216	96	102);
+}
+
+.main-header{
+	font-size: 40px;
+	font-weight: 800;
+}
+
+.main-header span{
+	display: block;
+	font-size: 30px;
+	font-weight: 500;
+}
+
+table{
+	position: relative;
+	border-collapse: collapse;
+	width: 800px;
+}
+
+.conteiner{
+	background-color: rgb(45	48	53);
+	padding-bottom: 200px;
+	padding-top: 30px;
+}
+
+
+tr:nth-child(2n){
+	background-color: rgb(102	97	129);
+}
+
+tr:nth-child(2n+1){
+	background-color: rgb(117	111	141);
+}
+
+tr:hover{
+	background-color: rgb(79	74	100);
+}
+
+
+td:hover{
+	border-bottom: 2px solid white;
+	border-top: 2px solid white;
+	border-color: white;
+}
+
+.list input[type="checkbox"] + span{
+	display:inline-block;
+	width: 20px;
+	height: 20px;
+	background: #ddd;
+	margin: 0 15px;
+	border-radius: 3px;
+	border: 1px solid #666;
+}
+
+.list input[type="checkbox"]:checked + span{
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRliGkkClEURcJa7PJ-tSoucR91T1U6qgGuUXgQP2b0dYnKu_J1&s);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 15px;
+}
+
+.list input[type="checkbox"]{
+	display: none;
+}
+
+table p{
+	font-family: sans-serif;
+	font-size: 25px;
+	color: white;
+	display: inline-block;
+	padding: 20px;
+
+}
+
+.one:after{
+	content: " (for the next lessons CSS)";
+	font-size: 20px;
+	color: rgb(170	169	191);
+}
+.two:after{
+	content: " (for more CSS manipulations)";
+	font-size: 20px;
+	color: rgb(170	169	191);
+}
+
+.three:after{
+	content: " (because they are awesome)";
+	font-size: 20px;
+	color: rgb(170	169	191);
+}
+
+.four:after{
+	content: " (hm... they always disappear)";
+	font-size: 20px;
+	color: rgb(170	169	191);
+}
+
+.six:after{
+	content: " (for my friends)";
+	font-size: 20px;
+	color: rgb(170	169	191);
+}
+
+button{
+	display: block;
+	text-align: center;
+	margin-top: 40px;
+	font-family: sans-serif;
+	width: 800px;
+	height: 60px;
+	font-size: 30px;
+	color: rgb(216	96	102);
+	background-color: rgb(57	62	68);
+	border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
